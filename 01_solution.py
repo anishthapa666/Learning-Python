@@ -1,10 +1,8 @@
-# To classify age group of a person..
-age = 61
-if age < 13:
-    print("child")
-elif age < 20:
-    print("Teeneger")
-elif age < 60:
-    print("Adult")
-else :
-    print("senior")
+num = [1,-3,-5,-7,-8,9]
+count = 0
+for n in num:
+    if n <= 0:
+        count+= 1
+
+print(count)
+        
